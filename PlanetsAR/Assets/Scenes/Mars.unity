@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 1440226047}
   - component: {fileID: 1440226051}
   m_Layer: 0
-  m_Name: Earth
+  m_Name: Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -460,7 +460,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da64fa855092f6b4d9a9642b4eba5eaa, type: 2}
+  - {fileID: 2100000, guid: 931626d533f44414e96f205642e324ed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
