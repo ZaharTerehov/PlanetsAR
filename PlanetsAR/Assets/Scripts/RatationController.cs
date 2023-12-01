@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class RatationController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Planet;
+    public Vector3 Rotation;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        Planet.transform.Rotate(Rotation * Time.deltaTime);
     }
 }
