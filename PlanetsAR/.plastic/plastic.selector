@@ -1,0 +1,4 @@
+repository "PlanetsAR@Zahar835@cloud"
+  path "/"
+    br "/main"
+    co "/main"
